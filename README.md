@@ -1,3 +1,5 @@
+[![Coverage Status](./coverage/badges/badge-statements.svg)](./coverage/badges/badge-statements.svg)
+
 # fizzbuzz-app
 
 ## Fizz Buzz
@@ -14,3 +16,27 @@
 - Include unit tests using Mocha, Chai and ts-mockito
 (https://github.com/NagRock/ts-mockito)
 - A GitHub repository for the resulting application
+
+### Running the App
+
+1. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+### Running the tests
+
+1. Run the tests:
+
+   ```bash
+   npm test
+   ```
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues, suggest improvements, or open pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
