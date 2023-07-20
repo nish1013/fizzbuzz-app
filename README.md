@@ -1,4 +1,8 @@
-[![Coverage Status](./coverage/badges/badge-statements.svg)](./coverage/badges/badge-statements.svg)
+[![Statements](./coverage/badges/badge-statements.svg)](./coverage/badges/badge-statements.svg)
+[![Branches](./coverage/badges/badge-branches.svg)](./coverage/badges/badge-branches.svg)
+[![Functions](./coverage/badges/badge-functions.svg)](./coverage/badges/badge-functions.svg)
+[![Lines](./coverage/badges/badge-lines.svg)](./coverage/badges/badge-lines.svg)
+
 
 # fizzbuzz-app
 
