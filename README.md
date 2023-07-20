@@ -34,6 +34,7 @@
    ```bash
    npm test
    ```
+   * [Coverage badge](https://github.com/jaywcjlove/coverage-badges-cli) is added to `./coverage` folder during the CI.
 
 ## Contributing
 
