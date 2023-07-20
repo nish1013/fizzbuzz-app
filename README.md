@@ -1,6 +1,4 @@
 ![CI](https://github.com/nish1013/fizzbuzz-app/actions/workflows/fizzbuzz.yml/badge.svg)
-![Coverage](./coverage/badges.svg)
-
 
 # fizzbuzz-app
 
