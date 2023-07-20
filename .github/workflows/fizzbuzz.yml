@@ -29,4 +29,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: code-coverage-badge
-          path: ./coverage/badges.svg 
+          path: .badges/badges.svg
