@@ -7,11 +7,11 @@
     "test": "nyc mocha --require ts-node/register 'tests/**/*.spec.ts'",
     "start": "ts-node src/index.ts",
     "coverage": "nyc report && nyc check-coverage --lines 80 --branches 80 --functions 80 --statements 80 && npm run generate-badges",
-    "generate-badges": "coverage-badges --output '.badges/badges.svg'"
+    "generate-badges": "coverage-badges --output 'coverage/badges.svg'"
   },
   "nyc": {
     "report-dir": "coverage",
-    "reporter": ["json-summary"]
+    "reporter": ["json-summary","html"]
   },
   "keywords": [],
   "author": "",

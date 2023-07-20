@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Node.js CI Build
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
       - run: npm test --coverage
       - run: npm run coverage 
       - name: Add code coverage badge
-        uses: actions/upload-artifact@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: code-coverage-badge
-          path: .badges/badges.svg
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: coverage
