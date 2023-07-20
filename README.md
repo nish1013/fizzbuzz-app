@@ -1,5 +1,5 @@
 ![CI](https://github.com/nish1013/fizzbuzz-app/actions/workflows/fizzbuzz.yml/badge.svg)
-
+[![Coverage Status](https://coveralls.io/repos/github/nish1013/fizzbuzz-app/badge.svg)](https://coveralls.io/github/nish1013/fizzbuzz-app)
 # fizzbuzz-app
 
 ## Fizz Buzz
