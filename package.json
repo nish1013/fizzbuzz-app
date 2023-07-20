@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha --require ts-node/register 'tests/**/*.spec.ts'",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "coverage": "nyc report --reporter=lcov && istanbul-badges report --input='./coverage/lcov.info' --output='./coverage/badges'"
+  },
+  "nyc": {
+    "report-dir": "coverage",
+    "reporter": ["lcov", "text"]
   },
   "keywords": [],
   "author": "",

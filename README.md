@@ -1,3 +1,5 @@
+[![Coverage Status](./coverage/badges/badge-statements.svg)](./coverage/badges/badge-statements.svg)
+
 # fizzbuzz-app
 
 ## Fizz Buzz
