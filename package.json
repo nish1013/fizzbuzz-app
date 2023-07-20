@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzz-app",
+  "version": "1.0.0",
+  "description": "## Fizz Buzz ### An application that performs the following: - The application should print the number from 1 to 100. - For multiples of three print “Fizz” instead of the number. - For multiples of five print “Buzz” instead of the number. - For numbers that are multiples of both three and five print “FizzBuzz”. ### Coding Requirements: - Written in TypeScript using NodeJS - Use of constructor injection using typescript-ioc (https://github.com/thiagobustamante/typescript-ioc) - Demonstrate SOLID principles - Include unit tests using Mocha, Chai and ts-mockito (https://github.com/NagRock/ts-mockito) - A GitHub repository for the resulting application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.2",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-mockito": "^2.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "typescript-ioc": "^3.2.2"
+  }
+}
