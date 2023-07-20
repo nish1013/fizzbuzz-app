@@ -6,12 +6,15 @@
   "scripts": {
     "test": "nyc mocha --require ts-node/register 'tests/**/*.spec.ts'",
     "start": "ts-node src/index.ts",
-    "coverage": "nyc report && nyc check-coverage --lines 80 --branches 80 --functions 80 --statements 80 && npm run generate-badges",
-    "generate-badges": "coverage-badges --output 'coverage/badges.svg'"
+    "coverage": "nyc report && nyc check-coverage --lines 80 --branches 80 --functions 80 --statements 80"
   },
   "nyc": {
     "report-dir": "coverage",
-    "reporter": ["json-summary","html"]
+    "reporter": [
+      "json-summary",
+      "html",
+      "lcov"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -21,8 +24,10 @@
     "@types/mocha": "^10.0.1",
     "@types/node": "^20.4.2",
     "chai": "^4.3.7",
+    "coveralls": "^3.1.1",
     "gh-badges": "^2.2.2",
     "mocha": "^10.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^15.1.0",
     "ts-mockito": "^2.6.1",
     "ts-node": "^10.9.1",
