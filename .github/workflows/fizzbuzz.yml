@@ -24,4 +24,9 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test --coverage
-      - run: npm run coverage   
+      - run: npm run coverage 
+      - name: Add code coverage badge
+        uses: actions/upload-artifact@v3
+        with:
+          name: code-coverage-badge
+          path: .badges/badges.svg
